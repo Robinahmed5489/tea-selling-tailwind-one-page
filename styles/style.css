@@ -21,3 +21,35 @@ body {
   border: 1px solid #ff0100;
   color: #ff0100;
 }
+.products .card {
+  background: linear-gradient(
+    rgba(211, 210, 219, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.fresh-tea .images1,
+.fresh-tea .images2,
+.fresh-tea .images3,
+.fresh-tea .images4 {
+  padding: 30px;
+}
+.fresh-tea .images1 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 185, 114, 1) 0%,
+    rgba(255, 230, 218, 1) 100%
+  );
+}
+.fresh-tea .images2 {
+  background-color: #fcf6e9;
+}
+.fresh-tea .images3 {
+  background-color: #eef1eb;
+}
+.fresh-tea .images4 {
+  background: linear-gradient(
+    90deg,
+    rgba(185, 185, 185, 1) 0%,
+    rgba(246, 246, 246, 1) 100%
+  );
+}
