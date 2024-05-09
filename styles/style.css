@@ -21,6 +21,18 @@ body {
   border: 1px solid #ff0100;
   color: #ff0100;
 }
+.secondary-button {
+  background: white;
+  padding: 12px 24px;
+  color: #ff0100;
+  border-radius: 8px;
+  border: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.secondary-button:hover {
+  background: transparent;
+  color: white;
+}
 .products .card {
   background: linear-gradient(
     rgba(211, 210, 219, 1) 0%,
@@ -52,4 +64,39 @@ body {
     rgba(185, 185, 185, 1) 0%,
     rgba(246, 246, 246, 1) 100%
   );
+}
+.clients .container {
+  background: linear-gradient(90deg, #ff8637, #ff0100);
+}
+.client-image {
+  top: -20px;
+  left: -20px;
+}
+.current-tab {
+  top: 180px;
+  left: 49%;
+}
+.events .card-compact .card-body {
+  padding: 1rem 1.2rem;
+}
+footer .footer nav input {
+  border-bottom: 1px solid grey;
+}
+footer .footer nav:last-child {
+  display: block;
+  width: 110%;
+}
+@media screen and (max-width: 767px) {
+  .current-tab {
+    top: 450px;
+    left: 6%;
+  }
+}
+@media screen and (max-width: 450px) {
+  footer .navbar {
+    flex-direction: column;
+  }
+  footer .navbar div {
+    margin: 0.6rem auto;
+  }
 }
